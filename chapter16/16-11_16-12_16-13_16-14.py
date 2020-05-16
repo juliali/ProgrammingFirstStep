@@ -16,14 +16,14 @@ def qsort_recursion_v2(arr, low, high):
 _, _, arr_reverse = generate_test_data(1, 1000)
 
 # 下面一行为打印提示语句，不要出现在代码示例里：
-print("\n\nFollowing are output of code 16-13\n")
+print("\n\nFollowing are output of code 16-13\n")   # TOBE IGNORED
 
 # 下面为代码16-13
 qsort_recursion_v2(arr_reverse, 0, len(arr_reverse) - 1)
 print("sorted :", arr_reverse)
 
 # 下面一行为打印提示语句，不要出现在代码示例里：
-print("\n\nFollowing are output of code 16-14\n")
+print("\n\nFollowing are output of code 16-14\n")   # TOBE IGNORED
 
 # 下面为代码16-14
 _, _, arr_reverse = generate_test_data(1, 2000)

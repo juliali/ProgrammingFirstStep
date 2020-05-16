@@ -31,7 +31,7 @@ else:
 
 
 # 下面一行为打印提示语句，不要出现在代码示例里：
-print("\n\nFollowing are output of code 10-4\n")
+print("\n\nFollowing are output of code 10-4\n")  # TOBE IGNORED
 
 # 下面代码要显示在书中10-4部分
 arr = []
