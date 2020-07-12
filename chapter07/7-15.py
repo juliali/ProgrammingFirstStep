@@ -5,4 +5,4 @@ while i < len(arr):
     print(arr[i])
     i = i + 1
 
-print("No fruit.")
+print("No more fruit.")

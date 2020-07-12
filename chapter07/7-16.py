@@ -8,4 +8,4 @@ while i < len(arr):
     i = i + 1
 
 if i == len(arr):
-    print("No fruit.")
+    print("No more fruit.")
