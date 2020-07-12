@@ -35,9 +35,9 @@ def binary_search_in_rotated_repeating_sequence(arr, tn, delta):
         return -1
 
 # 下面一行为打印提示语句，不要出现在代码示例里：
-print("\n\nFollowing are output of code 12-18\n")  # TOBE IGNORED
+print("\n\nFollowing are output of code 12-19\n")  # TOBE IGNORED
 
-# 下面为代码12-18
+# 下面为代码12-19
 
 arr = [10]
 
@@ -59,9 +59,9 @@ for tn in tnList:
         print(tn, "is found in position", r)
 
 # 下面一行为打印提示语句，不要出现在代码示例里：
-print("\n\nFollowing are output of code 12-19\n")
+print("\n\nFollowing are output of code 12-20\n")
 
-# 下面为代码12-19
+# 下面为代码12-20
 
 arrList = [[2,1,1,1,1], [1], [2,1,2,2,2,2,2], [5,6,1,2,3,4], [1,2,1,1,1,1],[1,2,2,3,3,3,4,5,6,6,7,1]]
 tn = 1

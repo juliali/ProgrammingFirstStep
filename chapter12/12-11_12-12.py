@@ -23,7 +23,7 @@ def quick_repeating_sequence_binary_search(arr, tn, delta):
             return -1
 
 
-# 下面为代码12-11
+# 下面为代码12-12
 
 arr = [3, 3, 3, 5, 5, 5, 5, 9, 7, 12, 15, 18, 32, 66, 78, 94, 103, 269]
 tn = 5

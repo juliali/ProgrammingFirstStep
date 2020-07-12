@@ -27,7 +27,7 @@ def binary_search_in_rotated_sequence(arr, tn):
     if low > high:
         return -1
 
-# 下面为代码12-15
+# 下面为代码12-16
 
 arr = []
 for i in range(11, 21):
