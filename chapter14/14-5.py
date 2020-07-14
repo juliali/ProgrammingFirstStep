@@ -1,22 +1,20 @@
 from Utilities import swap
 
 
-def insertion_sort(arr):
-    if len(arr) == 1:  # 因为要从第一个元素之后的元素迭代，所以如果整个序列长度为1，则直接返回
-        return
+def bubble_sort(arr):
+    for i in range(0, len(arr) - 1):
+        swapped = False
 
-    for i in range(1, len(arr)):
-        # 此处也是倒着访问List，但不是从尾巴开始的，而是从当前位置开始的，因为是两两交换，所以此处代码与bubbleSort有些相似
-        for j in range(i, 0, -1):
-            if arr[j] < arr[j - 1]:
-                swap(arr, j, j - 1)
-            else:
-                break
+        for j in range(len(arr) -1, i, -1):
+            if arr[j] <arr[j - 1]:
+                swap(arr, j, j-1)
+                swapped = True
+
+        if not swapped:
+            return
     return
 
-
-# 下面是调用代码，在书中应该独立形成一个代码块
-
-arr = [2, 1, 5, 8, 7, 13]
-insertion_sort(arr)
+# 下面是调用代码 无需出现在书中
+arr = [3, 9, 4, 11, 7, 2, 4, 1, 0, 15, 23, 43, 38, 17]
+bubble_sort(arr)
 print(arr)

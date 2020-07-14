@@ -9,7 +9,7 @@ def bubble_sort(arr):
     return
 
 
-# 下面是调用代码，在书中应该独立形成一个代码块
+# 下面是代码 14-4
 
 arr = [3, 9, 4, 11, 7]
 bubble_sort(arr)
