@@ -1,13 +1,9 @@
-def fibonacci(n):
-    if n <0:
-        print("Incorrect input")
-    elif n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fibonacci(n-1) + fibonacci(n-2)
+def recursion_test(depth):
+    print("recursion depth:", depth)
+    if depth <1000:
+        recursion_test(depth + 1)
+    return
 
-# 下面为调用代码，应形成独立代码块
+# 下面是 代码16-5，重复出现，不要出现在代码示例里：
 
-print(fibonacci(10))
+recursion_test(1)

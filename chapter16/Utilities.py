@@ -74,3 +74,13 @@ def generate_test_data(start, end, len=None):
     arr_reverse = [end + 1 - x for x in range(start, end + 1)]
 
     return arr_random, arr_seq, arr_reverse
+
+def qsort_recursion(arr, low, high):
+    if low >= high:
+        return
+
+    p = partition_v2(arr, low, high) #调用新的分区函数
+    qsort_recursion(arr, low, p - 1)
+    qsort_recursion(arr, p + 1, high)
+
+    return

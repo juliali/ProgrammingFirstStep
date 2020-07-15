@@ -6,6 +6,6 @@ def recursion_test(depth):
         print("exit recursion")
     return
 
-# 下面为调用代码，应形成独立代码块
+# 下面是 代码16-5，重复出现，不要出现在代码示例里：
 
 recursion_test(1)
