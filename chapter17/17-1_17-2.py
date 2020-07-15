@@ -21,7 +21,7 @@ def closest_sqrt(n):
     return -1
 
 
-# 下面代码为调用上面函数，应添加入原文，成为独立代码块
+# 下面为 代码17-2
 
 for i in range(1, 101):
     print(i, closest_sqrt(i))
