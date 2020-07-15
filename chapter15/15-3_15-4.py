@@ -19,7 +19,7 @@ def partition(arr):
     return llen
 
 
-# 下面是调用代码，在书中应该独立形成一个代码块
+# 下面是 代码15-4
 
 arr = [3, 9, 7, 8, 2, 4, 1, 6, 5, 17]
 p = partition(arr)

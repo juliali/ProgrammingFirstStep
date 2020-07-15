@@ -20,7 +20,7 @@ def partition_v2(arr, low, high):
     swap(arr, low, pi)
     return pi
 
-# 下面是调用上面partition_v2函数，这段代码应该加到原文中
+# 下面是 代码15-8
 
 arr = [3, 9, 7, 8, 2, 4, 1, 6, 5, 17]
 p = partition_v2(arr, 0, len(arr) - 1)

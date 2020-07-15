@@ -1,4 +1,4 @@
-from Utilities import partition
+from Utilities import partition_v2
 
 
 def q_sort_iteration(arr, low, high):
@@ -9,7 +9,7 @@ def q_sort_iteration(arr, low, high):
     while i < len(regions):
         low = regions[i][0]
         high = regions[i][1]
-        p = partition(arr, low, high)
+        p = partition_v2(arr, low, high)
         if p != -1:
             regions.append([low, p - 1])
             regions.append([p + 1, high])
@@ -17,7 +17,7 @@ def q_sort_iteration(arr, low, high):
     return
 
 
-# 下面是调用代码，在书中应该独立形成一个代码块
+# 下面是 代码15-12
 
 arr = [2, 1, 5, 8, 7, 13, 26, 4, 39, 0]
 q_sort_iteration(arr, 0, len(arr) - 1)

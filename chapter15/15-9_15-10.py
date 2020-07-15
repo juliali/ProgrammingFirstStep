@@ -32,7 +32,7 @@ def partition_v2_print(arr, low, high):
     return pi
 
 
-# 下面是调用代码，在书中应该独立形成一个代码块
+# 下面是 代码15-10
 
 arr = [19, 11, 27, 8]
 partition_v2_print(arr, 0, len(arr) - 1)

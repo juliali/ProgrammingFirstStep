@@ -39,3 +39,23 @@ def partition(arr, low, high):
         arr[i + low + llen + 1] = right_partition[i]
 
     return low + llen
+
+
+def partition_v2(arr, low, high):
+    if low >= high:
+        return -1
+
+    pi = low
+    li = low + 1
+    ri = high
+
+    while ri >= li:
+        if arr[li] > arr[pi]:
+            swap(arr, ri, li)
+            ri -= 1
+        else:
+            li += 1
+
+    pi = li - 1
+    swap(arr, low, pi)
+    return pi
