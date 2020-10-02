@@ -16,14 +16,14 @@ while low <= high:
         user_input = input("Your option:")
         user_input = user_input.strip()
 
-        if user_input == '1':
-            print("Succeeded! The secret number is %s." % m )
-            break
+    if user_input == '1':
+        print("Succeeded! The secret number is %s." % m )
+        break
+    else:
+        if user_input == '2':
+            low = m + 1
         else:
-            if user_input == '2':
-                low = m + 1
-            else:
-                high = m - 1
+            high = m - 1
 
 if low > high:
     print("Failed！")
