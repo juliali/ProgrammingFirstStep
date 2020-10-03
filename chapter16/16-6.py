@@ -1,6 +1,6 @@
 def recursion_test(depth):
     print("recursion depth:", depth)
-    if depth <1000:
+    if depth < 1000:
         recursion_test(depth + 1)
     return
 
